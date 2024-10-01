@@ -23,6 +23,9 @@ body {
 }
 
 form {
+    display: grid;
+    grid-template-columns: 1fr; /* Uma coluna, ajustável para mais, se necessário */
+    gap: 15px; /* Espaçamento entre os elementos */
     width: 400px;
     margin: 50px auto;
     background-color: #ffffff;
@@ -30,8 +33,6 @@ form {
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
-    margin-left: 1350px;
-    margin-top: 200px;
 }
 
 h1 {
@@ -43,7 +44,6 @@ input[type="password"],
 button {
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
     border: 1px solid #ff00379d;
     border-radius: 5px;
     box-sizing: border-box;
@@ -74,9 +74,12 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Responsividade */
 @media (max-width: 768px) {
     nav ul {
-        flex-direction: column;
+        display: grid; /* Adiciona grid para o menu de navegação */
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 10px;
         align-items: center;
     }
 
