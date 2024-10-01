@@ -2,11 +2,11 @@
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 
 ## 🗒️ integrantes
-Danilo Wendler - RM556602
-Renato Luiz - RM556403
-Pedro Muzel - RM555983
-Vitor Ismael - RM556027
-Guilherme Cezarino - RM557724
+- Danilo Wendler - RM556602
+- Renato Luiz - RM556403
+- Pedro Muzel - RM555983
+- Vitor Ismael - RM556027
+- Guilherme Cezarino - RM557724
 
 
 ## 🗒️ Descrição
