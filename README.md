@@ -18,14 +18,14 @@ Guilherme Cezarino - RM557724
 - Com a estrutura em HTML (Index e as páginas restantes na pasta "pages") com o Front-End em CSS (Main e as páginas restantes na pasta "assets") e com JAVASCRIPT utilizando o conteúdo visto em aula, desenvolvemos uma plataforme onde integraremos a fórmula E com um fantasy.
 ## :hammer: Funcionalidades do projeto
 - `Links`: SISTEMA DE LOGIN E VALIDAÇÃO (LOGIN, CADASTRO, PERFIL E MY SQUAD)
-- `Links`: SLIDE SHOW (BE PRO)
 - `Video`: ALERTS E MANIPULAÇÃO DE DOM
 - `Contatos`: LINKS INTEGRADOS E FUNCIONAIS
+- `Responsividade`: APLICAÇÃO FUNCIONAL EM QUALQUER DISPOSITIVO
 
 ## 📁 Acesso ao projeto
 
 **O projeto pode ser baixado nesse diretorio do github
-**O projeto pode acessado pelo link do github pages
+**O projeto pode acessado pelo link do github pages: https://pedromuzel.github.io/sprint3/
 
 
 ## 🛠️ Abrir e rodar o projeto
