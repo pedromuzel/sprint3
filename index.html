@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fórmula E - Mahindra</title>
+    <link rel="stylesheet" href="assets/main.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="pages/login.html">FAÇA SEU LOGIN!</a></li>
+                <li><a href="pages/ranking.html">RANKING</a></li>
+                <li><a href="pages/squad.html">My Squad</a></li>
+                <li><a href="pages/bepro.html">BE PRO</a></li>
+                <li><a href="pages/perfil.html">MY PROFILE</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Slider de Destaques -->
+    <div class="slider">
+        <div class="slide active" style="background-image: url('assets/carrinhu.jpg');">
+            <p>“A corrida não é apenas sobre a velocidade; é sobre a paixão e a perseverança.”</p>
+        </div>
+        <div class="slide" style="background-image: url('assets/pistafe.avif');">
+            <p>“As pistas são como a vida; você precisa saber quando acelerar e quando frear.”</p>
+        </div>
+        <div class="slide" style="background-image: url('assets/pilotoslide.avif');">
+            <p>“Um piloto não é apenas quem dirige, mas quem se conecta com a máquina.”</p>
+        </div>
+    </div>
+
+
+    <!-- Contagem Regressiva -->
+    <div id="countdown"></div>
+
+    <!-- Conteúdo Principal -->
+    <div class="main-container">
+        <div class="left-box nextrace">
+            <h2>Next Race</h2>
+            <p>Montreal - 21-07-24</p>
+            <iframe width="100%" height="715" src="https://www.youtube.com/embed/CEyc585qtr4?si=EUmhzmLHEeGlgO3O"
+                title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            <br>
+            <p>Click to watch</p>
+        </div>
+
+        <div class="right-box">
+            <div class="box piloto">
+                <h2>My Driver</h2>
+                <p>Driver - 1<br>Points: 233</p>
+                <img src="assets/driver.png" alt="Driver">
+            </div>
+
+            <div class="box carro">
+                <h2>My Car</h2>
+                <p>Car - 1<br>Points: 236</p>
+                <img src="assets/car.png" alt="Car">
+            </div>
+
+            <div class="box ranking">
+                <div class="top-score">
+                    <h2>Top Score</h2>
+                    <!-- Box para TERRORCB e 800 Points -->
+                    <div class="top-score-box">
+                        <p>TERRORCB</p>
+                        <p>800 Points</p>
+                    </div>
+                </div>
+
+                <div class="friends-ranking">
+                    <h2>Friends</h2>
+                    <!-- Box para Your Points e ranking de amigos -->
+                    <div class="friends-ranking-box">
+                        <p>Your Points: 469</p>
+                        <p>1 - Renato: 523</p>
+                        <p>2 - Me: 469</p>
+                        <p>3 - Lucas: 433</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- Botão de Voltar ao Topo -->
+    <button id="backToTop">Voltar ao Topo</button>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
