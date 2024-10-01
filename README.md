@@ -10,7 +10,7 @@ Guilherme Cezarino - RM557724
 
 
 ## 🗒️ Descrição
-- O projeto em desenvolvimento foi solicitado na disciplina de FRONT, pelo curso de Engenharia de Software - FIAP.
+- O projeto em desenvolvimento foi solicitado na disciplina de FRONT END, pelo curso de Engenharia de Software - FIAP.
 - Conforme foi pedido pela SPRINT 3, foi feito um sistema para ajudar a visibilidade da fórmula E no brasil
 ﻿
 ## :hammer: Explicando o projeto
