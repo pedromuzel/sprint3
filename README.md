@@ -24,8 +24,8 @@ Guilherme Cezarino - RM557724
 
 ## 📁 Acesso ao projeto
 
-**O projeto pode ser baixado nesse diretorio do github
-**O projeto pode acessado pelo link do github pages: https://pedromuzel.github.io/sprint3/
+- O projeto pode ser baixado nesse diretorio do github
+- O projeto pode acessado pelo link do github pages: https://pedromuzel.github.io/sprint3/
 
 
 ## 🛠️ Abrir e rodar o projeto
