@@ -24,9 +24,10 @@ body {
 
 form {
     display: grid;
-    grid-template-columns: 1fr; /* Uma coluna, ajustável para mais, se necessário */
+    grid-template-columns: 1fr; /* Uma coluna */
     gap: 15px; /* Espaçamento entre os elementos */
-    width: 400px;
+    width: 90%; /* Largura responsiva */
+    max-width: 400px; /* Largura máxima */
     margin: 50px auto;
     background-color: #ffffff;
     padding: 40px;
@@ -76,6 +77,10 @@ a:hover {
 
 /* Responsividade */
 @media (max-width: 768px) {
+    body {
+        padding: 20px; /* Adiciona espaçamento nas laterais */
+    }
+
     nav ul {
         display: grid; /* Adiciona grid para o menu de navegação */
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -91,9 +96,17 @@ a:hover {
     nav ul li a {
         font-size: 1.2em;
     }
+
+    form {
+        width: 90%; /* Ajusta a largura do formulário */
+    }
 }
 
 @media (max-width: 480px) {
+    body {
+        padding: 10px; /* Reduz o espaçamento em telas menores */
+    }
+
     nav ul li a img {
         width: 40px;
         height: 40px;
