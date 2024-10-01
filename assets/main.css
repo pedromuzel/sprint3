@@ -30,15 +30,14 @@ nav ul.menu li a {
 }
 
 .main-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Define duas colunas com proporções 2:1 */
     gap: 20px;
+    padding: 20px;
 }
 
 .left-box {
     height: 970px;
-    width: 65%;
     background-color: #ff0037;
     color: white;
     border-radius: 8px;
@@ -47,7 +46,6 @@ nav ul.menu li a {
 }
 
 .right-box {
-    width: 30%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -179,8 +177,7 @@ nav ul.menu li a {
 /* Media Queries para Responsividade */
 @media (max-width: 1200px) {
     .main-container {
-        flex-direction: column;
-        align-items: center;
+        grid-template-columns: 1fr; /* Muda para uma coluna em telas menores */
     }
 
     .left-box, .right-box {
